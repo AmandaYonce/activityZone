@@ -1,0 +1,142 @@
+html{
+    background-color: rgb(165, 164, 156);
+    background-image: url("xoBackground.png");
+}
+body{
+    background-color: rgb(241, 240, 235);
+    width: 1000px;
+    margin: 0 auto; 
+    height: 800px; 
+    border: 2px solid darkgrey;
+}
+#headerDiv{
+    text-align: center;
+    font-size: 50px; 
+}
+
+h1{
+    margin-top: 5px; 
+    padding-top: 10px;
+    margin-bottom: 0px; 
+    font-family: "Calistoga";
+}
+
+#navDiv{
+    width: 760px; 
+    margin: 0 auto;
+    background-color: white; 
+    position: relative;
+    height: 70px; 
+    border: 5px solid #FEDCD2;
+    margin-bottom: 20px; 
+}
+
+ul{
+    padding: 0px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 760px; 
+    margin-top: 0px; 
+    
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 20px; 
+    display: inline; 
+    position: relative; 
+    list-style-type: none;
+    font-size: 32px; 
+    font-family: 'Bree Serif';
+}
+
+li a{
+    color: #DF744A;
+    margin-top: 8px; 
+    text-decoration: none;
+}
+#tableDiv{
+    display: flex; 
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#scoreDiv{
+    display: grid;
+    grid-template-columns: 65px 270px;
+    grid-template-rows: repeat(3, 70px);
+    grid-template-areas: 
+    "match match"
+    "X XScore"
+    "O OScore";
+}
+
+#matches{
+    grid-column: 1/3;
+    font-size: 50px;
+    text-align: center;
+    font-family: fantasy;
+    text-decoration-line: underline;
+    
+}
+
+#X{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 65px;
+    font-family: fantasy; 
+}
+
+#xScore{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 30px;
+    font-family: fantasy; 
+    margin-top: auto;
+    
+}
+
+#O{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 65px;
+    font-family: fantasy; 
+}
+
+#oScore{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 30px;
+    font-family: fantasy; 
+    margin-top: auto;
+}
+
+
+tr{
+    height: 163px; 
+}
+
+td{
+    border: 5px solid #BFD8D2; 
+    font-size: 100px; 
+    max-width: 160px; 
+    max-height: 160px; 
+    table-layout: fixed;
+    text-align: center; 
+
+
+}
+
+td:hover{
+    background: rgb(139, 136, 131); 
+}
+
+table{
+    border: 8px solid rgb(165, 164, 156);
+    margin: 0 auto; 
+    height: 500px; 
+    width: 500px; 
+    table-layout: fixed;
+}
+

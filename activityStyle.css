@@ -1,0 +1,149 @@
+/*
+#BFD8D2  Powder
+#FEDCD2  Peach
+#DF744A  Burnt Orange
+#DCB239  Lemon
+
+font-family: 'Calistoga', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Permanent Marker', cursive;
+*/
+
+html{
+    background: repeating-linear-gradient(
+        45deg,
+        #FEDCD2,
+        #BFD8D2 20px,
+        #DCB239 30px
+    );
+}
+
+body{
+    height: 1000px; 
+    width: 1200px; 
+    background: -webkit-linear-gradient(#FEDCD2, #BFD8D2);
+    margin: 0 auto; 
+    border: 2px solid #DF744A;
+}
+
+
+h1{
+    font-size: 140px; 
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 15px; 
+    color: #DF744A;
+    font-family: "Calistoga";
+    background: -webkit-linear-gradient(#eee, #DCB239);
+    
+}
+
+#navDiv{
+    width: 760px; 
+    margin: 0 auto;
+    background-color: white; 
+    position: relative;
+    height: 70px; 
+    border: 5px solid #FEDCD2;
+    margin-bottom: 20px; 
+}
+
+ul{
+    padding: 0px; 
+    margin-left: 0.8%; 
+    width: 760px; 
+    margin-top: 9px; 
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 20px; 
+    display: inline; 
+    position: relative; 
+    list-style-type: none;
+    font-size: 32px; 
+    font-family: 'Bree Serif';
+}
+
+li a{
+    color: #DF744A;
+    margin-top: 8px; 
+    text-decoration: none;
+}
+
+#games{
+    display: flex; 
+}
+
+#games div{
+    float: left;
+    margin: 0 auto;  
+    font-size: 40px; 
+    font-family: 'Permanent Marker';
+    text-align: center; 
+}
+
+#games a{
+    color: #DF744A; 
+    text-decoration: none;
+}
+
+#pigLatin p{
+    margin-bottom: 5px; 
+    margin-top: 0.1px; 
+}
+
+#pigLatin img{
+    border: 5px solid #DF744A;
+}
+
+#wordSearch p{
+    margin-bottom: 5px; 
+    margin-top: 0.1px; 
+}
+
+#wordSearch img{
+    border: 5px solid #DF744A;
+}
+
+#ticTacToe p{
+    margin-bottom: 5px; 
+    margin-top: 0.1px; 
+}
+
+#ticTacToe img{
+    border: 5px solid #DF744A;
+}
+
+footer{
+    text-align: center; 
+    margin-top: 120px; 
+    font-size: 24px; 
+    font-family: 'Righteous';
+    color: #DCB239;
+    border-top: 2px solid #FEDCD2;
+    width: 850px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#pigLatinGameLink {
+   border: 5px solid  #DCB239;
+    background-color: #FEDCD2;
+}
+
+#ticTacToeGameLink {
+    border: 5px solid  #DCB239;
+     background-color: #FEDCD2;
+ }
+
+#wordSearchGameLink{
+    border: 5px solid  #DCB239;
+     background-color: #FEDCD2;
+ }
+
+
+
+

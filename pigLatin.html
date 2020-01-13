@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pig Latin Translator</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans|Solway|Sulphur+Point&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pigLatin.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bree+Serif|Calistoga|Permanent+Marker|Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="header">
+        <h1>Pig Latin Translator</h1>
+
+        <div id="navDiv">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wordSearch.html">Word Search</a></li>
+                <li><a href="ticTacToe.html">Tic Tac Toe</a></li>
+            </ul>
+            
+        </div>
+    </div>
+
+
+
+<div id="englishToLatin">
+    <div id="inputArea">
+        <div id="textBoxHeader">
+            <h2>Enter English Text</h2>
+        <div id="inputBox">
+            <textarea rows="10" cols="44" id="textInput"></textarea><br>
+            <button id="transButton" onclick=" clearOutput(); encodeText()">Translate</button>
+            <button id="clearButton" onclick="clearOutputIn()">Clear</button>
+        </div>
+        </div>
+    </div>
+
+    <div id="outputArea">
+        <div id="textBoxHeader">
+        <h2>Pig Latin Translation</h2></div>
+        <div id="output"></div>
+    </div>
+</div>
+
+<div id="latinToEnglish">
+        <div id="LEinputArea">
+            <div id="LEtextBoxHeader">
+                <h2>Enter Pig Latin Text</h2>
+            <div id="LEinputBox">
+                <textarea rows="10" cols="44" id="LEtextInput"></textarea><br>
+                <button id="LEtransButton" onclick=" clearOutput(); encodeTextLatin()">Translate</button>
+                <button id="LEclearButton" onclick="clearOutputIn()">Clear</button>
+            </div>
+            </div>
+        </div>
+    
+        <div id="LEoutputArea">
+                <div id="textBoxHeader">
+            <h2>English Translation</h2></div>
+            <div id="LEoutput"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="pigLatin.js"></script>
+</body>
+</html>

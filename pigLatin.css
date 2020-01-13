@@ -1,0 +1,175 @@
+/*
+font-family: 'Solway', serif;
+font-family: 'Sulphur Point', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Abril Fatface', cursive;
+*/
+
+
+html{
+    background-color: #add8e6;
+    background-image: url("pig-background-page.png");
+   
+}
+
+body{
+    width: 1050px; 
+    background-color: #fff5ee;
+    border: 1px solid silver;
+    margin: 0 auto; 
+    height: 1200px; 
+    background-image: url("latin-background-page-001.png");
+    opacity: 0.97;
+}
+#header{
+    text-align: center;
+    font-size: 40px; 
+    color: blue; 
+    font-family: 'Solway', serif;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+#navDiv{
+    width: 760px; 
+    margin: 0 auto;
+    background-color: white; 
+    position: relative;
+    height: 70px; 
+    border: 5px solid #FEDCD2;
+    margin-bottom: 20px; 
+}
+
+ul{
+    padding: 0px; 
+    margin-left: 0.8%; 
+    width: 760px; 
+    margin-top: 9px; 
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 20px; 
+    display: inline; 
+    position: relative; 
+    list-style-type: none;
+    font-size: 32px; 
+    font-family: 'Bree Serif';
+}
+
+li a{
+    color: #DF744A;
+    margin-top: 8px; 
+    text-decoration: none;
+}
+
+#englishToLatin {
+    display: grid; 
+    grid-template-columns: 470px 470px;
+    column-gap: 20px;
+    width: 960px; 
+    margin: 0 auto; 
+   
+}
+
+#inputArea{
+    grid-column: 1/2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#outputArea{
+grid-column: 2/3;
+
+}
+h2{
+    font-size: 35px; 
+    margin-bottom: 8px; 
+}
+#textBoxHeader{
+    text-align: center; 
+    font-family: 'Abril Fatface', cursive;
+    
+}
+
+#transButton{
+    font-size: 30px;
+    margin-right: 35px; 
+    font-family: 'Abril Fatface', cursive;
+}
+
+#clearButton{
+    font-size: 30px; 
+    font-family: 'Abril Fatface', cursive;
+}
+
+#output{
+    width: 446px;
+    height: 220px; 
+    background-color: white;
+    border: 1px solid darkgray; 
+    font-size: 20px; 
+    padding: 10px; 
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+#textInput{
+    font-size: 20px; 
+    padding: 5px; 
+}
+
+/*latin to english*/
+
+
+#latinToEnglish {
+    display: grid; 
+    grid-template-columns: 470px 470px;
+    column-gap: 20px;
+    width: 960px; 
+    margin: 0 auto; 
+   padding-top: 25px; 
+}
+
+#LEtextBoxHeader{
+    text-align: center; 
+    font-family: 'Abril Fatface', cursive;
+}
+#LEinputArea{
+    grid-column: 1/2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#LEoutputArea{
+grid-column: 2/3;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#LEtransButton{
+    font-size: 30px;
+    margin-right: 35px; 
+    font-family: 'Abril Fatface', cursive;
+}
+
+#LEclearButton{
+    font-size: 30px; 
+    font-family: 'Abril Fatface', cursive;
+}
+
+#LEoutput{
+    width: 446px;
+    height: 220px; 
+    background-color: white;
+    border: 1px solid darkgray; 
+    font-size: 20px; 
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#LEtextInput{
+    font-size: 20px; 
+    padding: 5px; 
+}
